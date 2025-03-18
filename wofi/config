@@ -1,0 +1,9 @@
+prompt=Search...
+color=.config/wofi/colors
+allow_images=true
+insensitive=true
+no_actions=true
+geometry=600x500+center
+single_click=true
+width=600
+height=500
