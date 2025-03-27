@@ -117,7 +117,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
+    wget
     vscode
     docker
     discord
@@ -129,6 +129,9 @@
     fzf
     anydesk
     dbeaver-bin
+    nwg-look
+    virtualbox
+    btop
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
